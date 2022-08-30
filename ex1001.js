@@ -10,7 +10,7 @@ console.log(X);
 As linhas acima (4 à 7) resolveram com sucesso o BEECROWD.
 A partir de agora, será feita a versão WEB, usando FUNÇÃO.
 */
-/*
+
 function somar(){
     const a = Number(document.getElementById("A").value);
     const b = Number(document.getElementById("B").value);
@@ -20,7 +20,7 @@ function somar(){
     alert(x);
     document.getElementById("Resultado").innerHTML = `X = ${x}`;
 }
-*/
+
 
 function limpar(){
     document.getElementById("A").value = "";
