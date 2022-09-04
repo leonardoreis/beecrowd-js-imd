@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beecrowd - Ex 1001</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beecrowd - Ex 1001</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="container">
-        <h1>Exercício 1001 web</h1>
-        
-        <h2 id="Resultado"></h2>
+  <div class="container">
 
-        <form>    
-            <div class="form-group">
-                <label for="A">Valor A</label> 
-                <input class="form-control" id="A" type="number" name="A" placeholder="Digite um valor NUMÉRICO" type="text" required="required" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="B">Valor B</label> 
-                <input id="B" type="number"  name="B" placeholder="Digite um valor NUMÉRICO" type="text" class="form-control">
-              </div> 
-              <div class="form-group">
-                <button onclick="somar()" name="somar" type="button" class="btn btn-primary">Somar</button>
-                <button onclick="limpar()" name="limpar" type="button" class="btn btn-primary">Limpar</button>
-              </div>        
-      </form>
-    </div>
 
-    
+    <form>
+      <div class="box">
+        <div class="box2">
 
-    <script type="text/javascript" src="ex1001.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+          <h1>Exercício 1001 WEB</h1>
+       
+
+          <div class="form-group">
+            <label for="A">Valor A</label>
+            <input class="form-control" id="A" type="number" name="A" placeholder="Digite um valor NUMÉRICO" type="text"
+              required="required" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="B">Valor B</label>
+            <input id="B" type="number" name="B" placeholder="Digite um valor NUMÉRICO" type="text"
+              class="form-control">
+          </div>
+          <div class="form-group">
+            <button onclick="Somar()" name="somar" type="button"> Calcular </button>
+            <button onclick="Limpar()" name="limpar" type="reset"> Limpar </button>
+          </div>
+          
+          <h2 id="Resultado"></h2>
+
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+
+  <script type="text/javascript" src="ex1001.js"></script>
 </body>
+
 </html>
